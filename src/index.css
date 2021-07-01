@@ -1,11 +1,12 @@
 /* CSS for common styles and imports */
-@import url('https://fonts.googleapis.com/css2?family=Judson:wght@700&family=Open+Sans:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Judson:wght@700&family=Open+Sans:wght@400;700;800&display=swap");
 :root {
   /* Judson in 700 weight only */
---primary-font: 'Judson', serif;
-/* 400 / 700 / 800 */
---secondary-font: 'Open Sans', sans-serif;
---footer-background: rgb(144,212,197);
+  --primary-font: "Judson", serif;
+  /* 400 / 700 / 800 */
+  --secondary-font: "Open Sans", sans-serif;
+  --footer-background: rgb(144, 212, 197);
+  -footer-color: rgb(46, 118, 104);
 }
 
 html {
@@ -13,7 +14,7 @@ html {
 }
 
 *,
-*::before, 
+*::before,
 *::after {
   margin: 0;
   padding: 0;
@@ -25,7 +26,6 @@ body {
   font-size: 62.5%;
   width: 100vw;
 }
- 
 
 .section {
   height: 100vh;
@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;  
+  font-size: 2rem;
 }
 
 h4 {
@@ -84,4 +84,3 @@ p {
 .section > div {
   flex: 1;
 }
-
