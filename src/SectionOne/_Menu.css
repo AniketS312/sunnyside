@@ -1,0 +1,36 @@
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.menu ul {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ list-style-type: none;
+ width: 40%;
+}
+
+.menu ul li {
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.menu ul li:last-child {
+  background-color: whitesmoke;
+  padding: .8rem 2rem;
+  border-radius: 25px;
+  color: black;
+}
+
+.menu ul li a {
+  text-decoration: none;
+
+}

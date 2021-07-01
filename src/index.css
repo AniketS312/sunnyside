@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* CSS for common styles and imports */
+@import url('https://fonts.googleapis.com/css2?family=Judson:wght@700&family=Open+Sans:wght@400;700;800&display=swap');
+:root {
+  /* Judson in 700 weight only */
+--primary-font: 'Judson', serif;
+/* 400 / 700 / 800 */
+--secondary-font: 'Open Sans', sans-serif;
+--footer-background: rgb(144,212,197);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  box-sizing: border-box;
 }
+
+*,
+*::before, 
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+body {
+  font-size: 62.5%;
+  width: 100vw;
+}
+ 
+
+.section {
+  height: 100vh;
+  width: 100vw;
+}
+
+.primary {
+  font-family: var(--primary-font);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Font size */
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;  
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+a,
+p {
+  font-size: 1rem;
+  font-family: var(--secondary-font);
+}
+
+a {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 500;
+}
+
+/* Makes div 50% so iamges touch at corner */
+.section > div {
+  flex: 1;
+}
+

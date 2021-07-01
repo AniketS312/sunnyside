@@ -1,0 +1,46 @@
+.section-five {
+  height: 80vh;
+}
+
+.section-five .title {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: silver;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.section-five .testimonials {
+  margin: auto;
+  height: 80%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-five .testimonials .testimonial {
+  padding: 0 1rem;
+  justify-content: center;
+}
+
+.section-five .testimonials .testimonial img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 4rem;
+}
+
+.section-five .testimonials .testimonial .comment {
+  margin: 0 10%;
+  margin-bottom: 2rem;
+  line-height: 1.8rem;
+}
+
+.section-five .testimonials .testimonial  h6 {
+  margin-top: .2rem;
+  color: silver;
+}

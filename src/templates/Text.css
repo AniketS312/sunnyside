@@ -1,0 +1,43 @@
+.text-template {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-template .text {
+  margin: 0 20%;
+}
+
+.text-template h2 {
+  margin-bottom: 2rem;
+}
+
+.text-template p {
+  color: grey;
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+}
+
+.text-template button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 17%;
+  position: relative;
+  text-align: start;
+}
+
+.text-template button::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  height: 2px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Could not make template for after yellow */
+.section-two button::after {
+  background-color: yellow;
+}
